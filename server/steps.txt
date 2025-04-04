@@ -1,0 +1,36 @@
+
+// dotenv
+// npm install dotenv;
+
+
+APIKEYS = 
+PASSWORDS=
+PORT=
+SECRECTURLS=
+
+
+// 1. npm install dotenv
+// 2. create a file called .env
+// 3. Add data in .env in this format
+
+//.env
+NAME=SUHAIL
+AGE=23
+NUMBER=9618211626
+PROFESSION="DEVELOPER"
+
+// 4. create a another file called .env.example 
+NAME=
+AGE=
+NUMBER=
+PROFESSION=
+
+5.///
+import dotenv from "dotenv";
+dotenv.config(); 
+
+
+
+let userName = process.env.USERNAME;
+let password = process.env.PASSWORD
+console.log(userName, password)

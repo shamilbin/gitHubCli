@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "first cli project",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shamilbin/gitHubCli.git"
+  },
+  "keywords": [
+    "cli",
+    "gitHub"
+  ],
+  "author": "shamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamilbin/gitHubCli/issues"
+  },
+  "homepage": "https://github.com/shamilbin/gitHubCli#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "got": "^14.4.7",
+    "readline-sync": "^1.4.10",
+    "terminal-image": "^3.1.1"
+  }
+}
