@@ -32,6 +32,10 @@ async function main() {
       console.log(image);
     }
 
+
+    //.  data collecting from link 
+
+    
     let login = userData.login;
     let name = userData.name;
     let location = userData.location;
